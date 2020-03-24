@@ -20,3 +20,9 @@ function forLoop(numarray) {
   return(numarray)
 }
 
+function whileLoop(num) {
+  let countdown = num;
+  while (countdown > 0) {
+    console.log(--countdown);
+  }
+}
