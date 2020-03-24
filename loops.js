@@ -1,7 +1,8 @@
 function doWhileLoop(num) {
+  let i=0
   function incrementVariable() {
-  num = num + 1;
-  return num;
+    num = num + 1;
+    return num;
   }
   do {
     console.log("I run once regardless.");
