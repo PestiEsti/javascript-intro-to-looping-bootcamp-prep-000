@@ -13,7 +13,7 @@ function forLoop(numarray) {
     if (i==1) {
       numarray.push("I am 1 strange loop.")
     } else {
-      numarray.push("I am".${i}."strange loops.")
+      numarray.push("I am"+i+"strange loops.")
     }
   }
   return(numarray)
